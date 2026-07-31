@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meelad 2K26</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f4f9f4;
+color:#222;
+}
+
+header{
+background:linear-gradient(135deg,#0b6b3a,#138f4c);
+color:white;
+padding:25px;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+header h1{
+font-size:38px;
+}
+
+header p{
+margin-top:8px;
+opacity:.9;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:20px;
+background:white;
+padding:15px;
+position:sticky;
+top:0;
+box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+nav a{
+text-decoration:none;
+color:#0b6b3a;
+font-weight:bold;
+}
+
+section{
+padding:30px 15px;
+max-width:1000px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+h2{
+color:#0b6b3a;
+margin-bottom:15px;
+}
+
+.scoreboard{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.team{
+padding:20px;
+border-radius:15px;
+text-align:center;
+color:white;
+}
+
+.team1{
+background:#087830;
+}
+
+.team2{
+background:#d4af37;
+color:#222;
+}
+
+.points{
+font-size:45px;
+font-weight:bold;
+margin-top:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+table th,table td{
+padding:12px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+table th{
+background:#0b6b3a;
+color:white;
+}
+
+footer{
+background:#0b6b3a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+.notice{
+padding:12px;
+margin:10px 0;
+background:#e8fff0;
+border-left:5px solid green;
+}
+
+@media(max-width:700px){
+.scoreboard{
+grid-template-columns:1fr;
+}
+header h1{
+font-size:28px;
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🕌 Meelad 2K26</h1>
+<p>Knowledge • Unity • Excellence</p>
+</header>
+
+<nav>
+<a href="#score">Score</a>
+<a href="#schedule">Schedule</a>
+<a href="#results">Results</a>
+<a href="#news">Announcements</a>
+</nav>
+
+<section>
+
+<div class="card">
+<h2>Welcome</h2>
+<p>
+Welcome to the official website of <b>Meelad 2K26</b>.
+Follow live competition scores, announcements, event schedules, and results throughout the program.
+</p>
+</div>
+
+<div class="card" id="score">
+<h2>🏆 Live Scoreboard</h2>
+
+<div class="scoreboard">
+
+<div class="team team1">
+<h3>AL BURHAN</h3>
+<div class="points">120</div>
+</div>
+
+<div class="team team2">
+<h3>AL FURQAN</h3>
+<div class="points">110</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="card" id="schedule">
+
+<h2>📅 Event Schedule</h2>
+
+<table>
+
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+
+<tr>
+<td>09:30 AM</td>
+<td>Qur'an Recitation</td>
+</tr>
+
+<tr>
+<td>10:30 AM</td>
+<td>Speech Competition</td>
+</tr>
+
+<tr>
+<td>11:30 AM</td>
+<td>Islamic Quiz</td>
+</tr>
+
+<tr>
+<td>02:00 PM</td>
+<td>Mappilappattu</td>
+</tr>
+
+<tr>
+<td>03:00 PM</td>
+<td>Group Song</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card" id="results">
+
+<h2>🥇 Latest Results</h2>
+
+<table>
+
+<tr>
+<th>Competition</th>
+<th>Winner</th>
+<th>Points</th>
+</tr>
+
+<tr>
+<td>Speech</td>
+<td>AL BURHAN</td>
+<td>20</td>
+</tr>
+
+<tr>
+<td>Quiz</td>
+<td>AL FURQAN</td>
+<td>20</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card" id="news">
+
+<h2>📢 Announcements</h2>
+
+<div class="notice">
+Speech Competition starts at 10:30 AM.
+</div>
+
+<div class="notice">
+Participants must report 15 minutes before the event.
+</div>
+
+<div class="notice">
+Live scores will be updated after every competition.
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+Made for ❤️ Meelad 2K26
+
+</footer>
+
+</body>
+</html>
